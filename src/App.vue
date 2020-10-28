@@ -35,16 +35,23 @@
     }
 </script>
 
-<style>
+<style scoped>
+@import "./main.css";
+
     body {
-        background-color: #F0F0F0;
+        /* background-color: #F0F0F0; */
     }
     h1 {
         padding: 0;
         margin-top: 0;
     }
+    #nav{
+      margin-top: 50px;
+    }
     #app {
-        width: 1024px;
-        margin: auto;
+        /* width: 1024px;
+        margin: auto; */
+        /* margin-top: 50px;
+        margin-left: 300px; */
     }
 </style>
